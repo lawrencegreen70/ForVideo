@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com</groupId>
-    <artifactId>VLOL</artifactId>
+    <artifactId>forvideo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ForVideo</name>
     <description>For Video Spring Boot Application</description>
@@ -125,7 +125,7 @@
                 <configuration>
                     <jdkVersion>11</jdkVersion>
                     <processTypes>
-                        <web>java -Dserver.port=$PORT $JAVA_OPTS -jar target/vlol-0.0.1-SNAPSHOT.jar</web>
+                        <web>java -Dserver.port=$PORT $JAVA_OPTS -jar target/forvideo-0.0.1-SNAPSHOT.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>
